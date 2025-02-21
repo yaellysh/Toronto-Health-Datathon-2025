@@ -55,15 +55,20 @@ export default function Home() {
           </div>
         </div>
 
-        <div>
+        <div className="text-justify">
             <div id="learn" className="text-gray-800 bg-white mx-12 mb-8 mt-8 py-12 px-12 rounded-lg shadow">
               <p className="text-2xl font-bold pb-6">What is Obstructive Sleep Apnea (OSA)?</p>
               <p> Obstructive Sleep Apnea (OSA) is a common sleep disorder where breathing repeatedly stops and starts due to airway obstruction. This can lead to poor sleep quality, daytime fatigue, and long-term health risks like high blood pressure and heart disease. Symptoms often include loud snoring, choking during sleep, and excessive daytime drowsiness. Early detection and treatment, such as lifestyle changes, CPAP therapy, or medical interventions, can significantly improve quality of life.</p>
             </div>
 
-            <div className="text-gray-800 bg-white mx-12 mb-8 mt-8 py-12 px-12 rounded-lg shadow">
-              <p className="text-2xl font-bold pb-6">Why It Matters?</p>
-              <p>Undiagnosed OSA can affect daily life, productivity, and long-term health. It’s linked to heart disease, stroke, diabetes, and even increased accident risk due to fatigue. Early detection allows for better management and treatment, improving quality of life.</p>
+            <div className="flex flex-col md:flex-row text-gray-800 bg-white mx-12 mb-8 mt-8 py-12 px-12 rounded-lg shadow">
+              <div className="md:w-2/3">
+                <p className="text-2xl font-bold pb-6">Why It Matters?</p>
+                <p>Undiagnosed OSA can significantly impact daily life, reducing energy levels, concentration, and overall productivity. Beyond sleep disturbances, it is closely linked to serious health conditions such as high blood pressure, heart disease, stroke, and diabetes. Persistent fatigue caused by OSA also increases the risk of accidents, both at work and on the road. Many individuals go years without realizing they have OSA, mistaking symptoms for general tiredness or stress. However, early detection through screening can lead to better management and treatment options, ultimately improving sleep quality, long-term health, and overall well-being.</p>
+              </div>
+                <div className="md:w-[15rem] flex justify-center items-center mx-auto">
+                <img src="/osa_impact.png" alt="OSA Impact" className="rounded-lg" />
+                </div>
             </div>
 
             <div className="bg-white text-gray-800 mx-12 mb-12 py-12 px-12 rounded-lg shadow">
